@@ -2659,8 +2659,9 @@ body.rounded-btns .read-more {
 
 .service-single {
   padding: 8rem 0;
+  display: flex;
 }
-.service-single .service-sidebar {
+/*.service-single .service-sidebar {
   padding-inline-end: 1rem;
   position: sticky;
   top: 7.5rem;
@@ -2742,7 +2743,7 @@ body.rounded-btns .read-more {
 }
 .service-single .service-sidebar .sidebar-pane .sc-list .sc-item:hover {
   opacity: 1;
-}
+}*/
 .service-single .service-content-area {
   margin-bottom: 4rem;
 }
@@ -2775,6 +2776,12 @@ body.rounded-btns .read-more {
 .service-single .service-content-area .two-cols-img .img-col img {
   min-width: 100%;
 }
+.service-single .dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  gap:20px;
+}
+
 
 /*    End .services Section Rules   */
 /*   Start about Section   */
